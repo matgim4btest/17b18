@@ -4,8 +4,10 @@ public class Program {
 
     public static void main(String[] args) {
 
-        DB _db = new DB();
-        _db.printKomitent();
+        DB db = new DB();
+        db.notUsedRacun();
+       float f;
+       f=db.zadatak(1,1);
         
     }
 }
