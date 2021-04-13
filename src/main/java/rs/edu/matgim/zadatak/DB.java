@@ -14,6 +14,7 @@ public class DB {
                 int IdKom = rs.getInt("IdRac");
 
                 System.out.println(String.format("%d\t", IdKom));
+                System.out.println();
             }
 
         } catch (SQLException ex) {
